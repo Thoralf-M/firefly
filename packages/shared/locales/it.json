@@ -619,7 +619,11 @@
             "length": "Il nome del tuo account non può essere più lungo di {length, plural, one {1 carattere} other {# caratteri}}.",
             "empty": "Devi usare il tuo conto più recente prima di crearne uno nuovo.",
             "notEmpty": "Devi trasferire il tuo saldo prima di eliminare questo conto.",
-            "duplicate": "Esiste già un account con questo nome."
+            "duplicate": "Esiste già un account con questo nome.",
+            "tilde": "A profile name can't start with the '~' character.",
+            "control": "A profile name can't contain a control character.",
+            "startDot": "A profile name can't start with the '.' character.",
+            "chars": "A profile name can't contain the following characters <>:\"/\\|?*"
         },
         "send": {
             "addressLength": "Gli indirizzi dovrebbero essere lunghi {length, plural, one {1 carattere} other {# caratteri}}.",
@@ -627,8 +631,10 @@
             "amountNoFloat": "Se le unità sono `i` non puoi usare le posizioni decimali.",
             "amountInvalidFormat": "L'importo sembra essere un numero non valido.",
             "amountZero": "L'importo deve essere maggiore di 0.",
-            "wrongAddressFormat": "Gli indirizzi iniziano con il prefisso {prefix}.",
+            "wrongAddressPrefix": "Addresses start with the prefix {prefix}.",
+            "wrongAddressFormat": "The address is not correctly formatted.",
             "insufficientFunds": "Questo conto non ha sufficienti fondi.",
+            "noToAccount": "You have not selected an account to send the funds to.",
             "sendingDust": "Non puoi inviare meno di 1 Mi.",
             "leavingDust": "Non puoi lasciare meno di 1 Mi sul tuo indirizzo."
         },

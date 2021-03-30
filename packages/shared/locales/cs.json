@@ -619,7 +619,11 @@
             "length": "Profilové jméno nemůže být delší než {length, plural, one {1 znak} other {# znaky}}.",
             "empty": "Před vytvořením nového účtu musíte použít poslední účet.",
             "notEmpty": "Před smazáním tohoto účtu musíte převést svůj zůstatek.",
-            "duplicate": "Účet s tímto názvem již existuje."
+            "duplicate": "Účet s tímto názvem již existuje.",
+            "tilde": "Název profilu nemůže začínat znakem '~'.",
+            "control": "Název profilu nemůže obsahovat kontrolní znak.",
+            "startDot": "Název profilu nemůže začínat znakem „.“.",
+            "chars": "Název profilu nemůže obsahovat následující znaky <>:\"/\\|?*"
         },
         "send": {
             "addressLength": "Adresy by měly mít {length, plural, one {1 znak} other {# znaky}}.",
@@ -627,8 +631,10 @@
             "amountNoFloat": "U jednotky `i` nelze použít desetinná místa.",
             "amountInvalidFormat": "Zdá se, že částka je neplatné číslo.",
             "amountZero": "Částka musí být větší než 0.",
-            "wrongAddressFormat": "Adresy začínají předponou {prefix}.",
+            "wrongAddressPrefix": "Adresy začínají předponou {prefix}.",
+            "wrongAddressFormat": "Adresa nemá správný formát.",
             "insufficientFunds": "This account has insufficient funds.",
+            "noToAccount": "Nevybrali jste účet, na který chcete poslat finanční prostředky.",
             "sendingDust": "You cannot send less than 1 Mi.",
             "leavingDust": "You cannot leave less than 1 Mi on your address."
         },

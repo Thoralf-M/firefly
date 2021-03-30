@@ -619,7 +619,11 @@
             "length": "계정 이름은 {length, plural, other {#글자}}보다 길 수 없습니다.",
             "empty": "새 계정을 만들기 전에 아직 사용하지 않은 기존 계정을 사용해야 합니다.",
             "notEmpty": "이 계정을 삭제하려면 계정에 남은 잔고를 비워야 합니다.",
-            "duplicate": "같은 이름의 계정이 이미 존재합니다."
+            "duplicate": "같은 이름의 계정이 이미 존재합니다.",
+            "tilde": "A profile name can't start with the '~' character.",
+            "control": "A profile name can't contain a control character.",
+            "startDot": "A profile name can't start with the '.' character.",
+            "chars": "A profile name can't contain the following characters <>:\"/\\|?*"
         },
         "send": {
             "addressLength": "주소는 {length, plural, other {#글자}}여야 합니다.",
@@ -627,8 +631,10 @@
             "amountNoFloat": "단위가 'i'이면 소수점을 사용할 수 없습니다.",
             "amountInvalidFormat": "금액에 잘못된 내용이 있습니다.",
             "amountZero": "보내는 양은 0보다 커야 합니다.",
-            "wrongAddressFormat": "주소는 앞에 {prefix} 로 시작합니다.",
+            "wrongAddressPrefix": "Addresses start with the prefix {prefix}.",
+            "wrongAddressFormat": "The address is not correctly formatted.",
             "insufficientFunds": "계정에 잔고가 부족합니다.",
+            "noToAccount": "You have not selected an account to send the funds to.",
             "sendingDust": "1 Mi 미만은 보낼 수 없습니다.",
             "leavingDust": "주소에 1 Mi 미만을 남겨놓을 수 없습니다."
         },

@@ -619,7 +619,11 @@
             "length": "Uw accountnaam mag niet langer zijn dan {length, plural, one {1 karakter} other {# karakters}}.",
             "empty": "U moet uw laatste account gebruiken voordat u een nieuwe aanmaakt.",
             "notEmpty": "U moet het openstaande saldo overboeken voordat u deze rekening verwijdert.",
-            "duplicate": "Een account met deze naam bestaat al."
+            "duplicate": "Een account met deze naam bestaat al.",
+            "tilde": "A profile name can't start with the '~' character.",
+            "control": "A profile name can't contain a control character.",
+            "startDot": "A profile name can't start with the '.' character.",
+            "chars": "A profile name can't contain the following characters <>:\"/\\|?*"
         },
         "send": {
             "addressLength": "Adressen moeten {length, plural, one {1 teken} other {# tekens}} lang zijn.",
@@ -627,8 +631,10 @@
             "amountNoFloat": "Als de eenheden `i` zijn, kunt u geen cijfers achter de comma gebruiken.",
             "amountInvalidFormat": "De opgegeven waarde lijkt een ongeldige waarde te zijn.",
             "amountZero": "De waarde moet groter zijn dan 0.",
-            "wrongAddressFormat": "Adressen beginnen met {prefix}.",
+            "wrongAddressPrefix": "Addresses start with the prefix {prefix}.",
+            "wrongAddressFormat": "The address is not correctly formatted.",
             "insufficientFunds": "Deze rekening heeft onvoldoende saldo.",
+            "noToAccount": "You have not selected an account to send the funds to.",
             "sendingDust": "U kunt niet minder dan 1 Mi verzenden.",
             "leavingDust": "U kunt niet minder dan 1 Mi op uw rekening achterlaten."
         },

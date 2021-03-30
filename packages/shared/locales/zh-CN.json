@@ -569,7 +569,7 @@
     },
     "dates": {
         "today": "今日",
-        "yesterday": "Yesterday",
+        "yesterday": "昨天",
         "daysAgo": "{time, plural, one {# 天} other {# 天}} 前",
         "weeksAgo": "{time, plural, one {# 周} other {# 周}} 前",
         "monthsAgo": "{time, plural, one {# 月} other {# 月}} 前",
@@ -619,7 +619,11 @@
             "length": "您的账户名称不能超过 {length, plural, one {1 个字符} other {# 字符}}。",
             "empty": "您必须使用您的最新帐户才能创建一个新帐户。",
             "notEmpty": "您必须在删除此帐户之前转账您的余额。",
-            "duplicate": "具有此名称的帐户已存在。"
+            "duplicate": "具有此名称的帐户已存在。",
+            "tilde": "A profile name can't start with the '~' character.",
+            "control": "A profile name can't contain a control character.",
+            "startDot": "A profile name can't start with the '.' character.",
+            "chars": "A profile name can't contain the following characters <>:\"/\\|?*"
         },
         "send": {
             "addressLength": "地址的长度应该是 {length, plural,one {1 个字符} other {# 个字符}}。",
@@ -627,8 +631,10 @@
             "amountNoFloat": "如果单位是 `i`，你不能使用小数点。",
             "amountInvalidFormat": "金额似乎是一个无效的数字。",
             "amountZero": "金额必须大于零。",
-            "wrongAddressFormat": "地址以前缀 {prefix} 开始。",
+            "wrongAddressPrefix": "Addresses start with the prefix {prefix}.",
+            "wrongAddressFormat": "The address is not correctly formatted.",
             "insufficientFunds": "该账户资金不足。",
+            "noToAccount": "You have not selected an account to send the funds to.",
             "sendingDust": "您的发送不能小于 1 Mi。",
             "leavingDust": "您的地址余额不能少于1Mi。"
         },

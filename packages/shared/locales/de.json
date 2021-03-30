@@ -619,7 +619,11 @@
             "length": "Dein Kontoname darf nicht länger als {length, plural, one {1 Zeichen} other {# Zeichen}} sein.",
             "empty": "Du musst dein neuestes Konto verwenden, bevor du ein neues erstellen kannst.",
             "notEmpty": "Du musst dein Guthaben transferieren bevor dieses Konto gelöscht werden kann.",
-            "duplicate": "Ein Konto mit diesem Namen existiert bereits."
+            "duplicate": "Ein Konto mit diesem Namen existiert bereits.",
+            "tilde": "Ein Profilname kann nicht mit dem Zeichen '~' beginnen.",
+            "control": "Ein Profilname darf kein Kontrollzeichen enthalten.",
+            "startDot": "Ein Profilname kann nicht mit dem Zeichen '.' beginnen.",
+            "chars": "Ein Profilname darf die folgenden Zeichen nicht enthalten: <>:\"/\\|?*"
         },
         "send": {
             "addressLength": "Adressen sollten {length, plural, one {1 Zeichen} other {# Zeichen}} lang sein.",
@@ -627,8 +631,10 @@
             "amountNoFloat": "Wenn Einheiten `i` sind, können keine Dezimalstellen verwendet werden.",
             "amountInvalidFormat": "Der Betrag scheint eine ungültige Zahl zu sein.",
             "amountZero": "Betrag muss größer als 0 sein.",
-            "wrongAddressFormat": "Adressen beginnen mit dem Präfix {prefix}.",
+            "wrongAddressPrefix": "Adressen beginnen mit dem Präfix {prefix}.",
+            "wrongAddressFormat": "Die Adresse ist nicht korrekt formatiert.",
             "insufficientFunds": "Dieses Konto hat nicht genug Guthaben.",
+            "noToAccount": "Sie haben kein Konto ausgewählt, auf welches das Guthaben gesendet werden soll.",
             "sendingDust": "Du kannst nicht weniger als 1 Mi senden.",
             "leavingDust": "Du kannst nicht weniger als 1 Mi auf deiner Adresse hinterlassen."
         },
