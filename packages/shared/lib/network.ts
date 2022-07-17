@@ -244,7 +244,7 @@ export const checkNodeUrlValidity = (nodesList: Node[], newUrl: string, allowIns
      * be audited. Until then this assignment statement
      * must stay.
      */
-    allowInsecure = false
+    allowInsecure = true
     if (!allowInsecure && !isValidHttpsUrl(newUrl)) {
         return 'error.node.https'
     }
